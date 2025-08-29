@@ -1,11 +1,11 @@
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { Hero } from "./components/Hero";
 
 export const App = () => {
-
-  return (
-    <>
-     <h1>Landing Page</h1>
-    </>
-  )
-}
-
+	return <div className="bg-black text-white min-h-[100vh] font-[Poppins] py-10 px-10" >
+  <NavBar/>
+    <Hero/>
+  </div>;
+};
