@@ -9,12 +9,12 @@ const videoEntries = [
 ];
 
 export const VideoLibrary = () => {
-	const borderB = "border-b-[1px] border-b-current border-b-solid border-opacity-50";
+	
 
 	return (
-		<div className="w-full flex flex-col">
+		<div className="w-full flex flex-col divide-y divide-[#6b7280]">
 			{videoEntries.map((entry, index) => (
-				<VideoEntry key={index} id={entry.id} title={entry.title} qty={entry.qty} className={index !== videoEntries.length - 1 ? borderB : ""}/>
+				<VideoEntry key={index} id={entry.id} title={entry.title} qty={entry.qty}/>
 			))}
 		</div>
 	);
