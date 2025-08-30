@@ -2,6 +2,7 @@ import "./App.css";
 import { NavBar } from "./components/NavBar";
 import { Hero } from "./components/Hero";
 import { PopularExercises } from "./components/PopularExercises";
+import { WorkoutProgram } from "./components/WorkoutProgram";
 
 export const App = () => {
 	return (
@@ -10,6 +11,7 @@ export const App = () => {
 				<NavBar />
 				<Hero />
 				<PopularExercises />
+        <WorkoutProgram/>
 			</div>
 		</div>
 	);
