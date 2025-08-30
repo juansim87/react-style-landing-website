@@ -4,7 +4,7 @@ export const Hero = () => {
 	const dataBox = "bg-[#191919] flex flex-col items-left px-7 py-3 rounded-3xl";
 	const dataSpan = "text-[13px] uppercase tracking-[1px]";
 	const dataNumbers = "text-[40px] font-semibold";
-	const button = "min-w-[200px] min-h-[70px] tracking-[1px] flex items-center justify-center rounded-xl";
+	const button = "min-w-[200px] min-h-[70px] tracking-[1px] flex items-center justify-center rounded-xl cursor-pointer";
 	const bgGreen = "bg-[#25AB75]";
 	const bgGrey = "bg-[#191919]";
 
