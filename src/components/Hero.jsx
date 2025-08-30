@@ -1,4 +1,4 @@
-import  athlete  from "../assets/images/athlete.png";
+import athlete from "../assets/images/athlete.png";
 
 export const Hero = () => {
 	const dataBox = "bg-[#191919] flex flex-col items-left px-7 py-3 rounded-3xl";
@@ -9,11 +9,11 @@ export const Hero = () => {
 	const bgGrey = "bg-[#191919]";
 
 	return (
-		<section className="relative flex flex-col gap-20 py-20">
+		<section className="w-full relative flex flex-col gap-20 pt-10 pb-40">
 			<div className={`${bgGrey} flex pl-2.5 pr-4 py-2 gap-6 align-center size-fit rounded-4xl`}>
 				<div className={`${bgGreen} px-3.5 py-1.5 border-black-2 rounded-3xl uppercase text-stroke`}>New</div>
 				<div className="flex justify-center items-center">
-					<p className="tracking-[0.5px] text-stroke">High Intensity workout to burn calories</p>
+					<p className="tracking-[0.5px] text-stroke opacity-80">High Intensity workout to burn calories</p>
 				</div>
 			</div>
 			<div className="flex flex-col gap-10">
@@ -47,7 +47,7 @@ export const Hero = () => {
 					<p className="text-[18px] font-semibold text-stroke">Preview</p>
 				</div>
 			</div>
-            <div className="absolute w-[800px] right-50 top-[10]">
+			<div className="absolute w-[640px] right-10 bottom-10">
 				<img src={athlete} alt="Cardio Exercise" className="w-full object-contain" />
 			</div>
 		</section>

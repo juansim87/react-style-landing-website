@@ -4,11 +4,11 @@ const navLinkMenu = ["Exercises", "Trainers", "Pricing", "LogIn"];
 
 export const NavBar = () => {
 
-    const navLink = "uppercase font-normal opacity-67 text-xs tracking-[1.5px]";
+    const navLink = "uppercase font-[200] opacity-67 text-xs tracking-[1.5px]";
 
     
   return (
-    <nav className="flex justify-between mb-40">
+    <nav className="flex w-full items-center justify-between mb-40">
       <p className="uppercase font-semibold text-lg tracking-[1px]">Workout</p>
       <div className="flex gap-10">
       {navLinkMenu.map((link, index) => (
