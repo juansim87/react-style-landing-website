@@ -7,7 +7,7 @@ import { Teacher } from "./Teacher";
 export const WorkoutProgram = () => {
 	const button = "max-w-[200px] min-h-[70px] tracking-[1px] flex items-center justify-center rounded-xl cursor-pointer";
 	return (
-		<div className="w-full flex flex-col">
+		<div className="w-full flex flex-col pb-40">
 			<div className="flex justify-between">
 				<div className="flex flex-col max-w-[524px]">
 					<h2 className="text-[120px] font-semibold -tracking-[2px] leading-[120px] relative z-10">

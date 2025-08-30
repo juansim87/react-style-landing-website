@@ -3,6 +3,7 @@ import { NavBar } from "./components/NavBar";
 import { Hero } from "./components/Hero";
 import { PopularExercises } from "./components/PopularExercises";
 import { WorkoutProgram } from "./components/WorkoutProgram";
+import { VideoLibrary } from "./components/VideoLibrary";
 
 export const App = () => {
 	return (
@@ -12,6 +13,7 @@ export const App = () => {
 				<Hero />
 				<PopularExercises />
         <WorkoutProgram/>
+        <VideoLibrary/>
 			</div>
 		</div>
 	);
