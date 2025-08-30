@@ -6,7 +6,6 @@ import { Teacher } from "./Teacher";
 
 export const WorkoutProgram = () => {
 	const button = "max-w-[200px] min-h-[70px] tracking-[1px] flex items-center justify-center rounded-xl cursor-pointer";
-	const bgGreen = "bg-[#25AB75]";
 	return (
 		<div className="w-full flex flex-col">
 			<div className="flex justify-between">
@@ -18,23 +17,21 @@ export const WorkoutProgram = () => {
 						<img src={underline} className="-mt-26 -ml-8 absolute z-0" />
 					</div>
 				</div>
-				<div className="flex flex-col pt-6 gap-10">
+				<div className="flex flex-col pt-6 gap-12">
 					<p  className="text-[25px] tracking-[0.5px] opacity-70 leading-[50px] max-w-[558px]"> 
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 						labore et dolore magna aliqua consectetur adipiscing.
 					</p>
-					<div className={`${button} ${bgGreen}`}>
+					<div className={`${button} bg-[#25AB75]`}>
 						<p className="text-[18px] font-semibold text-stroke">Get Started</p>
 					</div>
 				</div>
 			</div>
 			<div>
-				<div className="">
+				<div className="grid grid-cols-2 gap-8">
 					<Teacher name="Samantha Williams" img={samanthaWilliams} size={321} />
+					<Teacher name="Jonathan Wise" img={jonathanWise} size={560} className="row-span-2"/>
 					<Teacher name="Karen Summer" img={karenSummer} size={321} />
-				</div>
-				<div>
-					<Teacher name="Jonathan Wise" img={jonathanWise} size={560} />
 				</div>
 			</div>
 		</div>
