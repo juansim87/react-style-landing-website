@@ -13,7 +13,7 @@ export const PopularExercises = () => {
         <h3 className="text-[35px] font-semibold">Popular Exercises</h3>
         <span className="text-[12px] font-[200] opacity-[67%] tracking-[1.5px] uppercase">See more exercises</span>
       </div>
-      <div className="flex justify-between items-center flex-wrap gap-y-20">
+      <div className="flex justify-between items-center flex-wrap gap-20">
         <VideoPreview title="Treadmill" img={treadmill}/>
         <VideoPreview title="Stretching" img={stretching}/>
         <VideoPreview title="Yoga" img={yoga}/>

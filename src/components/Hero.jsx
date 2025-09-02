@@ -47,7 +47,7 @@ export const Hero = () => {
 					<p className="text-[18px] font-semibold text-stroke">Preview</p>
 				</div>
 			</div>
-			<div className="absolute w-[640px] right-10 bottom-10">
+			<div className="absolute w-[800px] right-10 -bottom-5">
 				<img src={athlete} alt="Cardio Exercise" className="w-full object-contain" />
 			</div>
 		</section>
